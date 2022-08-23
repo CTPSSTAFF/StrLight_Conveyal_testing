@@ -7,7 +7,7 @@ import pandas as pd
 
 # EPSGs of coord systems we will be using
 nad83 = "EPSG:4269"
-wsg84 = "EPSG:4326"
+wgs84 = "EPSG:4326"
 utm = "EPSG:32619"
 
 #import TAZ shapes that were used to download StreetLight data
@@ -58,7 +58,8 @@ h_lines = h_lines.unary_union
 fishnet = h_lines.intersection(v_lines)
 
 fishnet = gpd.GeoDataFrame(fishnet, columns=['geometry']).set_crs(utm)
-fishnet.to_file(taz_loc + 'fishnet_test.shp')
+fishnet = fishnet.to_crs(nad83)
+fishnet.to_file(working_dir + '/Data/Processed/MA_RI_1000m_pt_grid.geojson', driver='GeoJSON')
 
 
 

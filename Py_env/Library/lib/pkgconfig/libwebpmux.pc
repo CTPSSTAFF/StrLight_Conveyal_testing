@@ -1,0 +1,12 @@
+prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libwebpmux
+Description: Library for manipulating the WebP graphics format container
+Version: 1.2.3
+Requires: libwebp >= 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lwebpmux
+Libs.private: 

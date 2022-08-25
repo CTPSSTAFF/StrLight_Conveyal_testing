@@ -1,0 +1,10 @@
+prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+libdir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib
+includedir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 22.04.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

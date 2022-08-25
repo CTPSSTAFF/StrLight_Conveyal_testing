@@ -1,0 +1,158 @@
+{
+  "build": "h39d44d4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "extracted_package_dir": "C:\\Users\\bbact\\miniforge3\\pkgs\\expat-2.4.8-h39d44d4_0",
+  "features": "",
+  "files": [
+    "Library/bin/expat.dll",
+    "Library/bin/libexpat.dll",
+    "Library/bin/xmlwf.exe",
+    "Library/include/expat.h",
+    "Library/include/expat_config.h",
+    "Library/include/expat_external.h",
+    "Library/lib/cmake/expat-2.4.8/expat-config-version.cmake",
+    "Library/lib/cmake/expat-2.4.8/expat-config.cmake",
+    "Library/lib/cmake/expat-2.4.8/expat-release.cmake",
+    "Library/lib/cmake/expat-2.4.8/expat.cmake",
+    "Library/lib/expat.lib",
+    "Library/lib/libexpat.lib",
+    "Library/share/doc/expat/AUTHORS",
+    "Library/share/doc/expat/changelog",
+    "Library/share/man/man1/xmlwf.1",
+    ".nonadmin"
+  ],
+  "fn": "expat-2.4.8-h39d44d4_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\bbact\\miniforge3\\pkgs\\expat-2.4.8-h39d44d4_0",
+    "type": 1
+  },
+  "md5": "f8e0f53713756c08456f50c9ce25748c",
+  "name": "expat",
+  "package_tarball_full_path": "C:\\Users\\bbact\\miniforge3\\pkgs\\expat-2.4.8-h39d44d4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/expat.dll",
+        "path_type": "hardlink",
+        "sha256": "f770ecdf655fd2a56c7e7406e7631f5f96c05dbfb40dae1f54af54019caa7593",
+        "sha256_in_prefix": "f770ecdf655fd2a56c7e7406e7631f5f96c05dbfb40dae1f54af54019caa7593",
+        "size_in_bytes": 407040
+      },
+      {
+        "_path": "Library/bin/libexpat.dll",
+        "path_type": "hardlink",
+        "sha256": "f770ecdf655fd2a56c7e7406e7631f5f96c05dbfb40dae1f54af54019caa7593",
+        "sha256_in_prefix": "f770ecdf655fd2a56c7e7406e7631f5f96c05dbfb40dae1f54af54019caa7593",
+        "size_in_bytes": 407040
+      },
+      {
+        "_path": "Library/bin/xmlwf.exe",
+        "path_type": "hardlink",
+        "sha256": "4710b2f07a6f217fb4ac82d6c72ba1e800e7cb3703c9e8c1701498ef433ee7a5",
+        "sha256_in_prefix": "4710b2f07a6f217fb4ac82d6c72ba1e800e7cb3703c9e8c1701498ef433ee7a5",
+        "size_in_bytes": 235008
+      },
+      {
+        "_path": "Library/include/expat.h",
+        "path_type": "hardlink",
+        "sha256": "4bb99f6bfc1734f7e4f67a989b0e840d958d3af5f22bd94c865b9f30b213644e",
+        "sha256_in_prefix": "4bb99f6bfc1734f7e4f67a989b0e840d958d3af5f22bd94c865b9f30b213644e",
+        "size_in_bytes": 43535
+      },
+      {
+        "_path": "Library/include/expat_config.h",
+        "path_type": "hardlink",
+        "sha256": "e959c7baa07179b51f2ceadf532bb669f3172dd04eba5b5694a44f07bc7a5c93",
+        "sha256_in_prefix": "e959c7baa07179b51f2ceadf532bb669f3172dd04eba5b5694a44f07bc7a5c93",
+        "size_in_bytes": 3340
+      },
+      {
+        "_path": "Library/include/expat_external.h",
+        "path_type": "hardlink",
+        "sha256": "7ca9ed28dd5e08eac425931894fabd4c876db8f4be26f9b9a33c2e4f70a0d6c3",
+        "sha256_in_prefix": "7ca9ed28dd5e08eac425931894fabd4c876db8f4be26f9b9a33c2e4f70a0d6c3",
+        "size_in_bytes": 6029
+      },
+      {
+        "_path": "Library/lib/cmake/expat-2.4.8/expat-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "72d5771e564720eb63a8f028da5e60a4f986f2117faecfd7ae405b2884d0a17d",
+        "sha256_in_prefix": "72d5771e564720eb63a8f028da5e60a4f986f2117faecfd7ae405b2884d0a17d",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "Library/lib/cmake/expat-2.4.8/expat-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "275dd795ba90ff99bb31fffd6c495c8037124ab1c80a0edef671d5b6ce02ef89",
+        "sha256_in_prefix": "275dd795ba90ff99bb31fffd6c495c8037124ab1c80a0edef671d5b6ce02ef89",
+        "size_in_bytes": 3736
+      },
+      {
+        "_path": "Library/lib/cmake/expat-2.4.8/expat-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b5cc8ecdd47b2633abecf09d315a779fd44ef4103e62019b918bc6790a7717eb",
+        "sha256_in_prefix": "b5cc8ecdd47b2633abecf09d315a779fd44ef4103e62019b918bc6790a7717eb",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "Library/lib/cmake/expat-2.4.8/expat.cmake",
+        "path_type": "hardlink",
+        "sha256": "eafe043a8db83eab062fa122246ed3a975aaa489b774c3eb05cdb842074c856f",
+        "sha256_in_prefix": "eafe043a8db83eab062fa122246ed3a975aaa489b774c3eb05cdb842074c856f",
+        "size_in_bytes": 3336
+      },
+      {
+        "_path": "Library/lib/expat.lib",
+        "path_type": "hardlink",
+        "sha256": "a3db3ce48ecfa7bb220de029f729fb333d34a884603aad4a39343338ee8497a3",
+        "sha256_in_prefix": "a3db3ce48ecfa7bb220de029f729fb333d34a884603aad4a39343338ee8497a3",
+        "size_in_bytes": 17934
+      },
+      {
+        "_path": "Library/lib/libexpat.lib",
+        "path_type": "hardlink",
+        "sha256": "a3db3ce48ecfa7bb220de029f729fb333d34a884603aad4a39343338ee8497a3",
+        "sha256_in_prefix": "a3db3ce48ecfa7bb220de029f729fb333d34a884603aad4a39343338ee8497a3",
+        "size_in_bytes": 17934
+      },
+      {
+        "_path": "Library/share/doc/expat/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877",
+        "sha256_in_prefix": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Library/share/doc/expat/changelog",
+        "path_type": "hardlink",
+        "sha256": "d2cd60349c91764638ceacc68d0e2d853146e66083ea10256208e9cc9c23c2ae",
+        "sha256_in_prefix": "d2cd60349c91764638ceacc68d0e2d853146e66083ea10256208e9cc9c23c2ae",
+        "size_in_bytes": 60031
+      },
+      {
+        "_path": "Library/share/man/man1/xmlwf.1",
+        "path_type": "hardlink",
+        "sha256": "22504a16e0ed3c69ff1c153487a21214213696aa0319c7085e547cdadd860f24",
+        "sha256_in_prefix": "22504a16e0ed3c69ff1c153487a21214213696aa0319c7085e547cdadd860f24",
+        "size_in_bytes": 10366
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e6988b413b2db6d5ad7f4e797948670a2bfd777e29c664bf6ec4fbf60dfc6254",
+  "size": 386971,
+  "subdir": "win-64",
+  "timestamp": 1648619033173,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/expat-2.4.8-h39d44d4_0.tar.bz2",
+  "version": "2.4.8"
+}

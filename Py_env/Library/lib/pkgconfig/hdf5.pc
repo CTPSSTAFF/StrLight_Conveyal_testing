@@ -1,0 +1,14 @@
+prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: hdf5
+Description: HDF5 (Hierarchical Data Format 5) Software Library
+Version: 1.12.2
+
+Cflags: -I${includedir}
+Libs: -L${libdir}  -lhdf5
+Requires: 
+Libs.private:  -lC:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcurl.lib -lC:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libssl.lib -lC:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcrypto.lib -lC:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/z.lib  -lhdf5
+Requires.private: 

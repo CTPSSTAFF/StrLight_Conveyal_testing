@@ -17,9 +17,9 @@ def filter_fishnet(working_dir):
 
     #keep only points in the MBTA service area
     print("Importing fishnet...")
-    pts = gpd.read_file(working_dir + "/Data/Processed/fishnet.geojson", driver = "GeoJSON")
+    pts = gpd.read_file(working_dir + "/Data/Processed/fishnet.geojson", driver = "GeoJSON",crs=nad83)
     #mbta_area = gpd.read_file(working_dir + "/Data/input/mbta_service_area.geojson", driver = "GeoJSON")
-    pts = pts.to_crs(utm)
+    pts_utm = pts.to_crs(utm)
     #mbta_area_utm = mbta_area.to_crs(utm)
 
     #pts_mbta = pts_utm.clip(mbta_area_utm,keep_geom_type=True)
@@ -32,7 +32,7 @@ def filter_fishnet(working_dir):
     #pts_clip = pts_utm.clip(water_utm,keep_geom_type=True)
     #pts_clip = water_utm.clip(pts_utm,keep_geom_type=True)
     print("Removing points over water...")
-    pts_no_water = gpd.overlay(pts,water_utm,how="difference")
+    pts_no_water = gpd.overlay(pts_utm,water_utm,how="difference")
 
     print("Importing roads...")
     roads = gpd.read_file(working_dir + "/Data/input/roads_ma_ri.geojson", driver = "GeoJSON")
@@ -46,7 +46,7 @@ def filter_fishnet(working_dir):
     pts_road_buffer = pts_no_water.clip(road_buffer_union,keep_geom_type=True)
 
     outdir = working_dir + "/Data/Processed/filtered_fishnet.geojson"
-    pts_road_buffer = pts_road_buffer.to_crs(nad83)
+    pts_road_buffer = pts_road_buffer.to_crs(wgs84)
 
     pts_road_buffer.to_file(outdir,driver = 'GeoJSON')
     print("Complete. Filtered fishnet generated at: " + outdir)

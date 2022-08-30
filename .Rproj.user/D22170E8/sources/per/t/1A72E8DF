@@ -1,0 +1,26 @@
+{
+    "id": "1A72E8DF",
+    "path": "~/GitHub/StrLight_Conveyal_testing/Analysis/Fixing_up_gtfs.R",
+    "project_path": "Analysis/Fixing_up_gtfs.R",
+    "type": "r_source",
+    "hash": "1790372839",
+    "contents": "",
+    "dirty": false,
+    "created": 1661892520849.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "13,35",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1661893272,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1661893272852,
+    "read_only": false,
+    "read_only_alternatives": []
+}

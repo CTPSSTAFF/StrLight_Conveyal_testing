@@ -37,7 +37,7 @@ create_od_points <- function(state, year){
     all_water[[i]]<- water_i
   }
   all_water <- bind_rows(all_water) %>% st_as_sf()
-  st_write(all_water,"Data/input/water_ma_ri.geojson")
+  st_write(all_water,"Data/input/water_ma_ri.geojson",append=FALSE)
   
   #get roads for both states
   ma_roads <- get_roads_for_state(state="MA", year=year)
@@ -51,25 +51,31 @@ create_od_points <- function(state, year){
   
   generate_fishnet(working_dir=getwd())
   filter_fishnet(working_dir=getwd())
-  fishnet <- geojson_sf("Data/Processed/filtered_fishnet.geojson") %>%  st_set_crs(4269)
+  fishnet <- geojson_sf("Data/Processed/filtered_fishnet.geojson") %>%  st_set_crs(4326)
   #tracts_water_pct <- tracts_water_pct %>% select(GEOID, orig_m2, land_ratio, geometry)
   
   
   generate_taz_centroids(working_dir=getwd())
-  rep_points <- geojson_sf("Data/Processed/taz_rep_point.geojson") %>%  st_set_crs(4269)
+  rep_points <- geojson_sf("Data/Processed/taz_rep_point.geojson") %>%  st_set_crs(4326)
   
   od_points <- rbind(fishnet,rep_points)
-  st_write(od_points,"Data/Processed/od_points.shp")
+  od_points <- od_points %>% mutate(id=1:nrow(od_points))
+  od_points <- od_points %>%
+    mutate(long = unlist(map(od_points$geometry,1)),
+           lat = unlist(map(od_points$geometry,2))) %>% 
+    select(id,geometry,lat,long)
+  
+  write_sf(od_points,"Data/Processed/od_points.shp")
   
   #tracts_nowater <- st_erase(tracts, all_water)
   #tracts_nowater$land_area_sqmeter <- units::drop_units(st_area(tracts_nowater))
   #tracts_geog<- tracts_nowater %>% 
   #  select(GEOID, land_area_sqmeter)
   #write_rds(tracts_water_pct, "data/processed/tracts_water_ratio_MaRi.rds")  
-  file.remove("Data/input/roads_ma_ri.geojson")
-  file.remove("Data/input/water_ma_ri.geojson")
+  #file.remove("Data/input/roads_ma_ri.geojson")
+  #file.remove("Data/input/water_ma_ri.geojson")
   #file.remove("Data/input/mbta_service_area.geojson")
-  return(fishnet)
+  return(od_points)
   
 }
 
@@ -90,9 +96,9 @@ get_roads_for_state <- function(state, year){
                                       NAME == "Washington"|
                                       NAME == "Kent")
   }
-  ri_roads <- rbind_tigris(
+  roads <- rbind_tigris(
     lapply(counties$NAME, function(x){
-    })
+      roads(state, x, year= year)})
   )
 }
 

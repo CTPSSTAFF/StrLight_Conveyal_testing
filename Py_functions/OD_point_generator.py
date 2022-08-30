@@ -100,7 +100,7 @@ def generate_taz_centroids(working_dir):
     taz_road_no_water = gpd.overlay(taz_road_buffer,water_utm,how="difference")
     
     taz_rep_point = taz_road_no_water.representative_point()
-    taz_rep_point = taz_rep_point.to_crs(nad83)
+    taz_rep_point = taz_rep_point.to_crs(wgs84)
     outdir = working_dir + '/Data/Processed/taz_rep_point.geojson'
     taz_rep_point.to_file(outdir,driver="GeoJSON")
     print("Complete. TAZ representative points generated at: " + outdir)

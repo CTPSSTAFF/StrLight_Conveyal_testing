@@ -3,12 +3,13 @@ library(tidyverse)
 library(sf)
 library(tictoc)
 library(osmextract)
+#library(rJava)
 
 
 build_network <- function(sys_memory,network_dir,gtfs){
-  java_ram <- paste0("-Xmx",sys_memory,"G")
-  options(java.parameters = java_ram)
-  rJava::.jinit()
+  #java_ram <- paste0("-Xmx",sys_memory,"G")
+  #options(java.parameters = java_ram)
+  #rJava::.jinit()
   
   gtfs_loc <- file.path(getwd(),paste0("Data/input/GTFS/",gtfs,".zip"))
   net_loc <- file.path(getwd(),paste0("Data/input/",network_dir),paste0(gtfs,".zip"))

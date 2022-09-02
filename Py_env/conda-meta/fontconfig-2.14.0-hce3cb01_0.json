@@ -313,7 +313,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/fontconfig_1649160442324/_h_env",
         "sha256": "ce0c300dcb50ab3bd4df21c3fee2e3cfb10d04bf3d245e0915aff85dd9f098b2",
-        "sha256_in_prefix": "f873721194cbdf990b91a58a85565161baca94b811467d7fc688f972b088d259",
+        "sha256_in_prefix": "522428f25c729743781eb4d856902fcb43e7621b7de7acac9aa8d8e5cdc317ee",
         "size_in_bytes": 1021
       },
       {
@@ -357,7 +357,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/fontconfig_1649160442324/_h_env",
         "sha256": "897da7252eafdd900dd9e3d16eb65e00ce17c216ebae02c93b9b5ce42696bca6",
-        "sha256_in_prefix": "c0223ca9475a7493846be8d44b0c48ebc7355abd0b0a76aa095214e67c408a69",
+        "sha256_in_prefix": "7cd0619a400ce9fb33c1bd5b050eb0782f0a4d2de521039813343103fa0ee26f",
         "size_in_bytes": 573
       },
       {

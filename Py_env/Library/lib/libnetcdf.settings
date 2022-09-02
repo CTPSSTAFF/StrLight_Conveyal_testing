@@ -7,8 +7,8 @@ NetCDF Version:		4.8.1
 Dispatch Version:       3
 Configured On:		
 Host System:		--
-Build Directory: 	D:/bld/libnetcdf_1658967975276/work/build
-Install Prefix:         C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+Build Directory: 	D:/bld/libnetcdf_1660350869838/work/build
+Install Prefix:         C:/Users/bbact/miniforge3/envs/Py_env/Library
 
 # Compiling Options
 -----------------

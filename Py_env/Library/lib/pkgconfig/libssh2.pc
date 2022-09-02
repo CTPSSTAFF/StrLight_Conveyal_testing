@@ -2,7 +2,7 @@
 # libssh2 installation details
 ###########################################################################
 
-prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+prefix=C:/Users/bbact/miniforge3/envs/Py_env/Library
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

@@ -12,8 +12,8 @@ set_target_properties(TileDB::tiledb_shared PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/tiledb.dll"
   )
 
-list(APPEND _IMPORT_CHECK_TARGETS TileDB::tiledb_shared )
-list(APPEND _IMPORT_CHECK_FILES_FOR_TileDB::tiledb_shared "${_IMPORT_PREFIX}/lib/tiledb.lib" "${_IMPORT_PREFIX}/bin/tiledb.dll" )
+list(APPEND _cmake_import_check_targets TileDB::tiledb_shared )
+list(APPEND _cmake_import_check_files_for_TileDB::tiledb_shared "${_IMPORT_PREFIX}/lib/tiledb.lib" "${_IMPORT_PREFIX}/bin/tiledb.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

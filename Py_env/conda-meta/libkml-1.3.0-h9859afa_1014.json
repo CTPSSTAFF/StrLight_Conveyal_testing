@@ -209,7 +209,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/libkml_1626544429264/_h_env",
         "sha256": "67dbc3dc5521b244ce238b71dcf921c0f79a609455faa8763f0b40c33fa0393c",
-        "sha256_in_prefix": "23ec783bfd7eca8c8957be0b317698977acc7bfd32eab25fb24d459d172e4408",
+        "sha256_in_prefix": "8c333fa81f87487c302cffd82fc3527cc53ec1f8bd2f14eafaeaf54f8688a42e",
         "size_in_bytes": 4013
       },
       {
@@ -218,7 +218,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/libkml_1626544429264/_h_env",
         "sha256": "8767364d4a01534aab7ea49adc20d438896df8298dedf927de924dc7666fc792",
-        "sha256_in_prefix": "16a61879656bd66c42d0c4b986614440767f71af2e3bdc677a33a5c5a233c05b",
+        "sha256_in_prefix": "1c219ec8ee83c5a387727844694666bfaae4fe36106b90d7bb89f8c7c1f866b3",
         "size_in_bytes": 3391
       },
       {
@@ -1319,7 +1319,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "D:/bld/libkml_1626544429264/_h_env",
         "sha256": "3f687cc1a0bb00c88107010481bfded970f1f5be605964e0a6773b0b5a1146c0",
-        "sha256_in_prefix": "c572492e26bd9aad82d9b0e2f24b311a896d321e8db485f2ebd800284fa8324d",
+        "sha256_in_prefix": "4abb4b7291e8f24aa3ce7d5b6915de2aa79d618a69af24cb5a42c5e9984522ea",
         "size_in_bytes": 399
       },
       {

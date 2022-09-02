@@ -21,8 +21,8 @@
     "Lib/site-packages/cligj/__init__.py",
     "Lib/site-packages/cligj/features.py",
     ".nonadmin",
-    "Lib/site-packages/cligj/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/cligj/__pycache__/features.cpython-39.pyc"
+    "Lib/site-packages/cligj/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/cligj/__pycache__/features.cpython-310.pyc"
   ],
   "fn": "cligj-0.7.2-pyhd8ed1ab_1.tar.bz2",
   "license": "BSD-3-Clause",
@@ -109,11 +109,11 @@
         "size_in_bytes": 6905
       },
       {
-        "_path": "Lib/site-packages/cligj/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/cligj/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/cligj/__pycache__/features.cpython-39.pyc",
+        "_path": "Lib/site-packages/cligj/__pycache__/features.cpython-310.pyc",
         "path_type": "pyc_file"
       }
     ],

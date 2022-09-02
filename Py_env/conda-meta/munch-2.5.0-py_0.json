@@ -22,8 +22,8 @@
     "Lib/site-packages/munch/__init__.py",
     "Lib/site-packages/munch/python3_compat.py",
     ".nonadmin",
-    "Lib/site-packages/munch/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/munch/__pycache__/python3_compat.cpython-39.pyc"
+    "Lib/site-packages/munch/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/munch/__pycache__/python3_compat.cpython-310.pyc"
   ],
   "fn": "munch-2.5.0-py_0.tar.bz2",
   "license": "MIT",
@@ -110,11 +110,11 @@
         "size_in_bytes": 258
       },
       {
-        "_path": "Lib/site-packages/munch/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/munch/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/munch/__pycache__/python3_compat.cpython-39.pyc",
+        "_path": "Lib/site-packages/munch/__pycache__/python3_compat.cpython-310.pyc",
         "path_type": "pyc_file"
       }
     ],

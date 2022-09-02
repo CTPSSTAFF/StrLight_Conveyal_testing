@@ -1,6 +1,6 @@
-prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
-libdir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib
-includedir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/include
+prefix=C:/Users/bbact/miniforge3/envs/Py_env/Library
+libdir=C:/Users/bbact/miniforge3/envs/Py_env/Library/lib
+includedir=C:/Users/bbact/miniforge3/envs/Py_env/Library/include
 
 Name: poppler
 Description: PDF rendering library

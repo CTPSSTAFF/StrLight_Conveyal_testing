@@ -36,18 +36,18 @@
     "Lib/site-packages/mapclassify/tests/test_greedy.py",
     "Lib/site-packages/mapclassify/tests/test_mapclassify.py",
     ".nonadmin",
-    "Lib/site-packages/mapclassify/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/__pycache__/_classify_API.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/__pycache__/classifiers.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/datasets/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/data.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/__pycache__/greedy.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/__pycache__/pooling.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/tests/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/tests/__pycache__/test_classify.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/tests/__pycache__/test_greedy.cpython-39.pyc",
-    "Lib/site-packages/mapclassify/tests/__pycache__/test_mapclassify.cpython-39.pyc"
+    "Lib/site-packages/mapclassify/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/__pycache__/_classify_API.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/__pycache__/classifiers.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/datasets/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/data.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/__pycache__/greedy.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/__pycache__/pooling.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/tests/__pycache__/test_classify.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/tests/__pycache__/test_greedy.cpython-310.pyc",
+    "Lib/site-packages/mapclassify/tests/__pycache__/test_mapclassify.cpython-310.pyc"
   ],
   "fn": "mapclassify-2.4.3-pyhd8ed1ab_0.tar.bz2",
   "license": "BSD-3-Clause",
@@ -211,51 +211,51 @@
         "size_in_bytes": 19820
       },
       {
-        "_path": "Lib/site-packages/mapclassify/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/__pycache__/_classify_API.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/__pycache__/_classify_API.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/__pycache__/classifiers.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/__pycache__/classifiers.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/datasets/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/datasets/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/data.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/datasets/calemp/__pycache__/data.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/__pycache__/greedy.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/__pycache__/greedy.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/__pycache__/pooling.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/__pycache__/pooling.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_classify.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_classify.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_greedy.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_greedy.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_mapclassify.cpython-39.pyc",
+        "_path": "Lib/site-packages/mapclassify/tests/__pycache__/test_mapclassify.cpython-310.pyc",
         "path_type": "pyc_file"
       }
     ],

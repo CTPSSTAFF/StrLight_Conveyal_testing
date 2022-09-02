@@ -28,14 +28,14 @@
     "Lib/site-packages/xyzservices/tests/test_lib.py",
     "Lib/site-packages/xyzservices/tests/test_providers.py",
     ".nonadmin",
-    "Lib/site-packages/xyzservices/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/__pycache__/_version.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/data/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/__pycache__/lib.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/__pycache__/providers.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/tests/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/tests/__pycache__/test_lib.cpython-39.pyc",
-    "Lib/site-packages/xyzservices/tests/__pycache__/test_providers.cpython-39.pyc"
+    "Lib/site-packages/xyzservices/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/data/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/__pycache__/lib.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/__pycache__/providers.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/tests/__pycache__/test_lib.cpython-310.pyc",
+    "Lib/site-packages/xyzservices/tests/__pycache__/test_providers.cpython-310.pyc"
   ],
   "fn": "xyzservices-2022.6.0-pyhd8ed1ab_0.tar.bz2",
   "license": "BSD-3-Clause",
@@ -178,35 +178,35 @@
         "size_in_bytes": 6062
       },
       {
-        "_path": "Lib/site-packages/xyzservices/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/__pycache__/_version.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/__pycache__/_version.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/data/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/data/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/__pycache__/lib.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/__pycache__/lib.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/__pycache__/providers.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/__pycache__/providers.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/test_lib.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/test_lib.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/test_providers.cpython-39.pyc",
+        "_path": "Lib/site-packages/xyzservices/tests/__pycache__/test_providers.cpython-310.pyc",
         "path_type": "pyc_file"
       }
     ],

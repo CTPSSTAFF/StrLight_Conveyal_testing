@@ -13,8 +13,8 @@ set_target_properties(Libssh2::libssh2 PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/libssh2.dll"
   )
 
-list(APPEND _IMPORT_CHECK_TARGETS Libssh2::libssh2 )
-list(APPEND _IMPORT_CHECK_FILES_FOR_Libssh2::libssh2 "${_IMPORT_PREFIX}/lib/libssh2.lib" "${_IMPORT_PREFIX}/bin/libssh2.dll" )
+list(APPEND _cmake_import_check_targets Libssh2::libssh2 )
+list(APPEND _cmake_import_check_files_for_Libssh2::libssh2 "${_IMPORT_PREFIX}/lib/libssh2.lib" "${_IMPORT_PREFIX}/bin/libssh2.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

@@ -275,6 +275,23 @@ TILEDB_DEPRECATED_EXPORT int32_t tiledb_query_add_point_ranges(
     const void* start,
     uint64_t count) TILEDB_NOEXCEPT;
 
+/**
+ * Get the number of relevant fragments from the subarray. Should only be
+ * called after size estimation was asked for.
+ *
+ * @param ctx The TileDB context.
+ * @param query The query to get the data fron.
+ * @param relevant_fragment_num Variable to receive the number of relevant
+ * fragments.
+ * @return `TILEDB_OK` for success and `TILEDB_ERR` for error.
+ *
+ * @note Should only be called after size estimation was run.
+ */
+TILEDB_EXPORT int32_t tiledb_query_get_relevant_fragment_num(
+    tiledb_ctx_t* ctx,
+    const tiledb_query_t* query,
+    uint64_t* relevant_fragment_num) TILEDB_NOEXCEPT;
+
 /* ********************************* */
 /*        QUERY STATUS DETAILS       */
 /* ********************************* */
@@ -882,6 +899,51 @@ TILEDB_EXPORT int32_t tiledb_group_dump_str(
     char** dump_ascii,
     const uint8_t recursive) TILEDB_NOEXCEPT;
 
+/**
+ * Consolidates the group metadata into a single group metadata file.
+ *
+ * **Example:**
+ *
+ * @code{.c}
+ * tiledb_group_consolidate_metadata(
+ *     ctx, "tiledb:///groups/mygroup", nullptr);
+ * @endcode
+ *
+ * @param ctx The TileDB context.
+ * @param group_uri The name of the TileDB group whose metadata will
+ *     be consolidated.
+ * @param config Configuration parameters for the consolidation
+ *     (`nullptr` means default, which will use the config from `ctx`).
+ * @return `TILEDB_OK` on success, and `TILEDB_ERR` on error.
+ */
+TILEDB_EXPORT int32_t tiledb_group_consolidate_metadata(
+    tiledb_ctx_t* ctx,
+    const char* group_uri,
+    tiledb_config_t* config) TILEDB_NOEXCEPT;
+
+/**
+ * Cleans up the group metadata
+ * Note that this will coarsen the granularity of time traveling (see docs
+ * for more information).
+ *
+ * **Example:**
+ *
+ * @code{.c}
+ * tiledb_group_vacuum_metadata(
+ *     ctx, "tiledb:///groups/mygroup", nullptr);
+ * @endcode
+ *
+ * @param ctx The TileDB context.
+ * @param group_uri The name of the TileDB group to vacuum.
+ * @param config Configuration parameters for the vacuuming
+ *     (`nullptr` means default, which will use the config from `ctx`).
+ * @return `TILEDB_OK` on success, and `TILEDB_ERR` on error.
+ */
+TILEDB_EXPORT int32_t tiledb_group_vacuum_metadata(
+    tiledb_ctx_t* ctx,
+    const char* group_uri,
+    tiledb_config_t* config) TILEDB_NOEXCEPT;
+
 /* ********************************* */
 /*                FILESTORE          */
 /* ********************************* */
@@ -1039,6 +1101,43 @@ TILEDB_EXPORT int32_t tiledb_mime_type_to_str(
  */
 TILEDB_EXPORT int32_t tiledb_mime_type_from_str(
     const char* str, tiledb_mime_type_t* mime_type) TILEDB_NOEXCEPT;
+
+/**
+ * Retrieves the number of cells written to the fragments by the user.
+ *
+ * Contributions from each fragment to the total are as described in following.
+ *
+ * In the case of sparse fragments, this is the number of non-empty
+ * cells in the fragment.
+ *
+ * In the case of dense fragments, TileDB may add fill
+ * values to populate partially populated tiles. Those fill values
+ * are counted in the returned number of cells. In other words,
+ * the cell number is derived from the number of *integral* tiles
+ * written in the file.
+ *
+ * note: The count returned is the cumulative total of cells
+ * written to all fragments in the current fragment_info entity,
+ * i.e. count may effectively include multiples for any cells that
+ * may be overlapping across the various fragments.
+ *
+ * **Example:**
+ *
+ * @code{.c}
+ * uint64_t cell_num;
+ * tiledb_fragment_info_get_total_cell_num(ctx, fragment_info, &cell_num);
+ * @endcode
+ *
+ * @param ctx The TileDB context
+ * @param fragment_info The fragment info object.
+ * @param cell_num The number of cells to be retrieved.
+ * @return `TILEDB_OK` for success and `TILEDB_ERR` for error.
+ */
+TILEDB_EXPORT int32_t tiledb_fragment_info_get_total_cell_num(
+    tiledb_ctx_t* ctx,
+    tiledb_fragment_info_t* fragment_info,
+    uint64_t* count) TILEDB_NOEXCEPT;
+
 #ifdef __cplusplus
 }
 #endif

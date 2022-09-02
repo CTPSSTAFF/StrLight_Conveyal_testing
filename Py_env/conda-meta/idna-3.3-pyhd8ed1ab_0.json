@@ -27,14 +27,14 @@
     "Lib/site-packages/idna/py.typed",
     "Lib/site-packages/idna/uts46data.py",
     ".nonadmin",
-    "Lib/site-packages/idna/__pycache__/__init__.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/codec.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/compat.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/core.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/idnadata.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/intranges.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/package_data.cpython-39.pyc",
-    "Lib/site-packages/idna/__pycache__/uts46data.cpython-39.pyc"
+    "Lib/site-packages/idna/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/codec.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/compat.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/core.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/idnadata.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/intranges.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/package_data.cpython-310.pyc",
+    "Lib/site-packages/idna/__pycache__/uts46data.cpython-310.pyc"
   ],
   "fn": "idna-3.3-pyhd8ed1ab_0.tar.bz2",
   "license": "BSD-3-Clause",
@@ -170,35 +170,35 @@
         "size_in_bytes": 204400
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/__init__.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/__init__.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/codec.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/codec.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/compat.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/compat.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/core.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/core.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/idnadata.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/idnadata.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/intranges.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/intranges.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/package_data.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/package_data.cpython-310.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/idna/__pycache__/uts46data.cpython-39.pyc",
+        "_path": "Lib/site-packages/idna/__pycache__/uts46data.cpython-310.pyc",
         "path_type": "pyc_file"
       }
     ],

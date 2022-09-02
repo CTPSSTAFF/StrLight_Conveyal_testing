@@ -12,8 +12,8 @@ set_target_properties(png PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/libpng16.dll"
   )
 
-list(APPEND _IMPORT_CHECK_TARGETS png )
-list(APPEND _IMPORT_CHECK_FILES_FOR_png "${_IMPORT_PREFIX}/lib/libpng16.lib" "${_IMPORT_PREFIX}/bin/libpng16.dll" )
+list(APPEND _cmake_import_check_targets png )
+list(APPEND _cmake_import_check_files_for_png "${_IMPORT_PREFIX}/lib/libpng16.lib" "${_IMPORT_PREFIX}/bin/libpng16.dll" )
 
 # Import target "png_static" for configuration "Release"
 set_property(TARGET png_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -22,8 +22,8 @@ set_target_properties(png_static PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libpng16_static.lib"
   )
 
-list(APPEND _IMPORT_CHECK_TARGETS png_static )
-list(APPEND _IMPORT_CHECK_FILES_FOR_png_static "${_IMPORT_PREFIX}/lib/libpng16_static.lib" )
+list(APPEND _cmake_import_check_targets png_static )
+list(APPEND _cmake_import_check_files_for_png_static "${_IMPORT_PREFIX}/lib/libpng16_static.lib" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

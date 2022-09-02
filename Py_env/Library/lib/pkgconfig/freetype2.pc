@@ -1,4 +1,4 @@
-prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
+prefix=C:/Users/bbact/miniforge3/envs/Py_env/Library
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include
@@ -6,8 +6,8 @@ includedir=${prefix}/include
 Name: FreeType 2
 URL: https://freetype.org
 Description: A free, high-quality, and portable font engine.
-Version: 23.4.17
-Requires:
+Version: 24.3.18
+Requires: 
 Requires.private: zlib, libpng
 Libs: -L${libdir} -lfreetype
 Libs.private: 

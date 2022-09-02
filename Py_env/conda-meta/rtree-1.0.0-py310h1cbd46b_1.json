@@ -1,0 +1,183 @@
+{
+  "build": "py310h1cbd46b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libspatialindex >=1.9.3,<1.9.4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "C:\\Users\\bbact\\miniforge3\\pkgs\\rtree-1.0.0-py310h1cbd46b_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Rtree-1.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/METADATA",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/RECORD",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/WHEEL",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/Rtree-1.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/rtree/__init__.py",
+    "Lib/site-packages/rtree/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/rtree/__pycache__/core.cpython-310.pyc",
+    "Lib/site-packages/rtree/__pycache__/exceptions.cpython-310.pyc",
+    "Lib/site-packages/rtree/__pycache__/finder.cpython-310.pyc",
+    "Lib/site-packages/rtree/__pycache__/index.cpython-310.pyc",
+    "Lib/site-packages/rtree/core.py",
+    "Lib/site-packages/rtree/exceptions.py",
+    "Lib/site-packages/rtree/finder.py",
+    "Lib/site-packages/rtree/index.py",
+    ".nonadmin"
+  ],
+  "fn": "rtree-1.0.0-py310h1cbd46b_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\bbact\\miniforge3\\pkgs\\rtree-1.0.0-py310h1cbd46b_1",
+    "type": 1
+  },
+  "md5": "580179d00304dd869b14779b62130bb1",
+  "name": "rtree",
+  "package_tarball_full_path": "C:\\Users\\bbact\\miniforge3\\pkgs\\rtree-1.0.0-py310h1cbd46b_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0aee23abca969aab648c0c41aa9f6cc861887167ac9f3fbf8d446dda01c9b81b",
+        "sha256_in_prefix": "0aee23abca969aab648c0c41aa9f6cc861887167ac9f3fbf8d446dda01c9b81b",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5ce4f51a21e5584645d7cbd844129b2486cc0fe665b98f336be8ffd3bc53292b",
+        "sha256_in_prefix": "5ce4f51a21e5584645d7cbd844129b2486cc0fe665b98f336be8ffd3bc53292b",
+        "size_in_bytes": 2616
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "778482d63c17aa9aa362b5629ea838b0196c6c6a928682bcaba3c7495f5e0c9b",
+        "sha256_in_prefix": "778482d63c17aa9aa362b5629ea838b0196c6c6a928682bcaba3c7495f5e0c9b",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b6ea960dec72ec053d63ac348bf6e7607ff99d34a2666262f6dec20ff857203",
+        "sha256_in_prefix": "5b6ea960dec72ec053d63ac348bf6e7607ff99d34a2666262f6dec20ff857203",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "19fbe0dde15f69073bb8406bbef085d728926f1733e6775b4976ca9b7ec39f42",
+        "sha256_in_prefix": "19fbe0dde15f69073bb8406bbef085d728926f1733e6775b4976ca9b7ec39f42",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "Lib/site-packages/Rtree-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4f5f67b4b01e841ded6794bdaab2e07e217593d37580fe7a3ffd7e4ec05aef6e",
+        "sha256_in_prefix": "4f5f67b4b01e841ded6794bdaab2e07e217593d37580fe7a3ffd7e4ec05aef6e",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f13524fdf1042ce70935c30f90e7a66162b1c195c7b35e00d9348e9e09d783e5",
+        "sha256_in_prefix": "f13524fdf1042ce70935c30f90e7a66162b1c195c7b35e00d9348e9e09d783e5",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "476312ad377b3d6e9677308fc2582a54a00d7e140d50fe5408132b48e94b8c02",
+        "sha256_in_prefix": "476312ad377b3d6e9677308fc2582a54a00d7e140d50fe5408132b48e94b8c02",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0027668acf2200b732b5e07eeda4a3659c9ab307cdb69aca9cc1f9e431a0d37",
+        "sha256_in_prefix": "b0027668acf2200b732b5e07eeda4a3659c9ab307cdb69aca9cc1f9e431a0d37",
+        "size_in_bytes": 10103
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e812c520239e51b68c7c59920dd8147fdf4a14f489db05997dbe74883b7c0985",
+        "sha256_in_prefix": "e812c520239e51b68c7c59920dd8147fdf4a14f489db05997dbe74883b7c0985",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__pycache__/finder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7fca73351e5bf76b46dfc0ba84f194a79815789d836deb5e4ea2985ad0b5e0c",
+        "sha256_in_prefix": "d7fca73351e5bf76b46dfc0ba84f194a79815789d836deb5e4ea2985ad0b5e0c",
+        "size_in_bytes": 2141
+      },
+      {
+        "_path": "Lib/site-packages/rtree/__pycache__/index.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d114157b496a07e203593c3b79d0d3f3a3ce4c9c3761e11028e9debf7a358cf4",
+        "sha256_in_prefix": "d114157b496a07e203593c3b79d0d3f3a3ce4c9c3761e11028e9debf7a358cf4",
+        "size_in_bytes": 76817
+      },
+      {
+        "_path": "Lib/site-packages/rtree/core.py",
+        "path_type": "hardlink",
+        "sha256": "88dec0a48de007d15df69e71d091f7d3f7c284af6a56f4e963eb94bc2a99f9fe",
+        "sha256_in_prefix": "88dec0a48de007d15df69e71d091f7d3f7c284af6a56f4e963eb94bc2a99f9fe",
+        "size_in_bytes": 25626
+      },
+      {
+        "_path": "Lib/site-packages/rtree/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "30e3297b08afc2b33f51237110070aa360c390c4d75ae3942af4367f2f21717b",
+        "sha256_in_prefix": "30e3297b08afc2b33f51237110070aa360c390c4d75ae3942af4367f2f21717b",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "Lib/site-packages/rtree/finder.py",
+        "path_type": "hardlink",
+        "sha256": "62445eb59eba60e5b23d902e3d3fa61fd375a71d5ff94917d13c5c45baaabd53",
+        "sha256_in_prefix": "62445eb59eba60e5b23d902e3d3fa61fd375a71d5ff94917d13c5c45baaabd53",
+        "size_in_bytes": 3745
+      },
+      {
+        "_path": "Lib/site-packages/rtree/index.py",
+        "path_type": "hardlink",
+        "sha256": "c6ccb0dce9ba8f723edcf49b7c1368be65dd1e8ca5589ceb312bf05fdf61c132",
+        "sha256_in_prefix": "c6ccb0dce9ba8f723edcf49b7c1368be65dd1e8ca5589ceb312bf05fdf61c132",
+        "size_in_bytes": 86966
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ca54e185c25bca5c548169ad44518cf43dc2168648d901edf17648e8fcba6a29",
+  "size": 50589,
+  "subdir": "win-64",
+  "timestamp": 1649367945259,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/rtree-1.0.0-py310h1cbd46b_1.tar.bz2",
+  "version": "1.0.0"
+}

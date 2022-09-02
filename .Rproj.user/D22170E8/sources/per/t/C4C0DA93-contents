@@ -72,8 +72,8 @@ create_od_points <- function(state, year){
   #tracts_geog<- tracts_nowater %>% 
   #  select(GEOID, land_area_sqmeter)
   #write_rds(tracts_water_pct, "data/processed/tracts_water_ratio_MaRi.rds")  
-  #file.remove("Data/input/roads_ma_ri.geojson")
-  #file.remove("Data/input/water_ma_ri.geojson")
+  file.remove("Data/input/roads_ma_ri.geojson")
+  file.remove("Data/input/water_ma_ri.geojson")
   #file.remove("Data/input/mbta_service_area.geojson")
   return(od_points)
   

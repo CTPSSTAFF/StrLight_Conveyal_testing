@@ -6,9 +6,9 @@ library(osmextract)
 
 
 route_between_points <- function(network,od_points, sys_memory){
-  java_ram <- paste0("-Xmx",sys_memory,"G")
-  options(java.parameters = java_ram)
-  rJava::.jinit()
+  #java_ram <- paste0("-Xmx",sys_memory,"G")
+  #options(java.parameters = java_ram)
+  #rJava::.jinit()
   
   # oe_download_directory("input/Base_network")
   # 

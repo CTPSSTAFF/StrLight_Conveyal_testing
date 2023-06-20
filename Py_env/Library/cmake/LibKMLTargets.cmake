@@ -42,7 +42,7 @@ unset(_expectedTargets)
 
 
 # The installation prefix configured by this project.
-set(_IMPORT_PREFIX "C:/Users/bbact/miniforge3/envs/Py_env/Library")
+set(_IMPORT_PREFIX "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library")
 
 # Create imported target kmlbase
 add_library(kmlbase STATIC IMPORTED)

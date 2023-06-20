@@ -1,0 +1,71 @@
+{
+  "build": "h2842628_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "geos >=3.11.0,<3.11.1.0a0",
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "extracted_package_dir": "C:\\Users\\bbact\\miniforge3\\pkgs\\librttopo-1.1.0-h2842628_11",
+  "features": "",
+  "files": [
+    "Library/bin/librttopo.dll",
+    "Library/include/librttopo.h",
+    "Library/include/librttopo_geom.h",
+    "Library/lib/librttopo.lib",
+    ".nonadmin"
+  ],
+  "fn": "librttopo-1.1.0-h2842628_11.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "C:\\Users\\bbact\\miniforge3\\pkgs\\librttopo-1.1.0-h2842628_11",
+    "type": 1
+  },
+  "md5": "ae13271b8053b68bd007101ac9776ac6",
+  "name": "librttopo",
+  "package_tarball_full_path": "C:\\Users\\bbact\\miniforge3\\pkgs\\librttopo-1.1.0-h2842628_11.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/librttopo.dll",
+        "path_type": "hardlink",
+        "sha256": "8978868a3cd2ce6ac41aee7dd7211c3751e3e89bd4a68387cb506580fb48a918",
+        "sha256_in_prefix": "8978868a3cd2ce6ac41aee7dd7211c3751e3e89bd4a68387cb506580fb48a918",
+        "size_in_bytes": 644608
+      },
+      {
+        "_path": "Library/include/librttopo.h",
+        "path_type": "hardlink",
+        "sha256": "cdf6854ae50dbfe7aff87b77341b1233af8a4587481674180c4546568060505b",
+        "sha256_in_prefix": "cdf6854ae50dbfe7aff87b77341b1233af8a4587481674180c4546568060505b",
+        "size_in_bytes": 47568
+      },
+      {
+        "_path": "Library/include/librttopo_geom.h",
+        "path_type": "hardlink",
+        "sha256": "5f7796e86fa8b5b7d54d505c15a98c26b01464040c8f411db30eec546b492136",
+        "sha256_in_prefix": "5f7796e86fa8b5b7d54d505c15a98c26b01464040c8f411db30eec546b492136",
+        "size_in_bytes": 78448
+      },
+      {
+        "_path": "Library/lib/librttopo.lib",
+        "path_type": "hardlink",
+        "sha256": "d5b3a7e9b6f12a8e5f44ff14382cbe2664c4079bbccd67ab3ee35b1dfd47cc28",
+        "sha256_in_prefix": "d5b3a7e9b6f12a8e5f44ff14382cbe2664c4079bbccd67ab3ee35b1dfd47cc28",
+        "size_in_bytes": 1150662
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6d71803e6a2ea8ef763e20ba2d607c03f7e6a9281696c8f076c7b0acd104a61f",
+  "size": 552249,
+  "subdir": "win-64",
+  "timestamp": 1656788970277,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/librttopo-1.1.0-h2842628_11.tar.bz2",
+  "version": "1.1.0"
+}

@@ -19,7 +19,7 @@
     "Lib/site-packages/cycler-0.11.0.dist-info/top_level.txt",
     "Lib/site-packages/cycler.py",
     ".nonadmin",
-    "Lib/site-packages/__pycache__/cycler.cpython-310.pyc"
+    "Lib/site-packages/__pycache__/cycler.cpython-39.pyc"
   ],
   "fn": "cycler-0.11.0-pyhd8ed1ab_0.tar.bz2",
   "license": "BSD-3-Clause",
@@ -99,7 +99,7 @@
         "size_in_bytes": 14519
       },
       {
-        "_path": "Lib/site-packages/__pycache__/cycler.cpython-310.pyc",
+        "_path": "Lib/site-packages/__pycache__/cycler.cpython-39.pyc",
         "path_type": "pyc_file"
       }
     ],

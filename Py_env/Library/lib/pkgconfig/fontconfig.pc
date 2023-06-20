@@ -1,9 +1,9 @@
-prefix=C:/Users/bbact/miniforge3/envs/Py_env/Library
+prefix=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
 includedir=${prefix}/include
 libdir=${prefix}/lib
 
-sysconfdir=C:/Users/bbact/miniforge3/envs/Py_env/Library/etc
-localstatedir=C:/Users/bbact/miniforge3/envs/Py_env/Library/var
+sysconfdir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/etc
+localstatedir=C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/var
 confdir=${sysconfdir}/fonts
 cachedir=${localstatedir}/cache/fontconfig
 
@@ -12,5 +12,5 @@ Description: Font configuration and customization library
 Version: 2.14.0
 Requires: freetype2 >=  21.0.15
 Libs: -L${libdir} -lfontconfig
-Libs.private: C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/expat.lib
+Libs.private: C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/expat.lib
 Cflags: -I${includedir}

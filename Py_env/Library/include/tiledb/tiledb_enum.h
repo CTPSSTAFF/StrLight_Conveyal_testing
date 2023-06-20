@@ -27,7 +27,7 @@
 // clang-format off
 /**
  * NOTE: The values of these enums are serialized to the array schema and/or
- * fragment metadata. Therefore, the values below should never change,
+ * fragment metadata. Therefore, the values below should never change, 
  * otherwise backwards compatibility breaks.
  */
 #ifdef TILEDB_QUERY_TYPE_ENUM
@@ -144,8 +144,6 @@
     TILEDB_DATATYPE_ENUM(TIME_AS) = 39,
     /** std::byte */
     TILEDB_DATATYPE_ENUM(BLOB) = 40,
-    /** Boolean */
-    TILEDB_DATATYPE_ENUM(BOOL) = 41,
 #endif
 
 #ifdef TILEDB_ARRAY_TYPE_ENUM
@@ -198,8 +196,6 @@
     TILEDB_FILTER_TYPE_ENUM(FILTER_CHECKSUM_SHA256) = 13,
     /** Dictionary encoding filter. */
     TILEDB_FILTER_TYPE_ENUM(FILTER_DICTIONARY) = 14,
-    /** Float scaling filter. */
-    TILEDB_FILTER_TYPE_ENUM(FILTER_SCALE_FLOAT) = 15,
 #endif
 
 #ifdef TILEDB_FILTER_OPTION_ENUM
@@ -209,12 +205,6 @@
     TILEDB_FILTER_OPTION_ENUM(BIT_WIDTH_MAX_WINDOW) = 1,
     /** Max window length for positive-delta encoding. Type: `uint32_t`. */
     TILEDB_FILTER_OPTION_ENUM(POSITIVE_DELTA_MAX_WINDOW) = 2,
-    /** Bit width for float-scaling filter. Type: uint64_t. */
-    TILEDB_FILTER_OPTION_ENUM(SCALE_FLOAT_BYTEWIDTH) = 3,
-    /** Scale factor for float-scaling filter. Type: float64. */
-    TILEDB_FILTER_OPTION_ENUM(SCALE_FLOAT_FACTOR) = 4,
-    /** Offset for float-scaling filter. Type: float64. */
-    TILEDB_FILTER_OPTION_ENUM(SCALE_FLOAT_OFFSET) = 5,
 #endif
 
 #ifdef TILEDB_ENCRYPTION_TYPE_ENUM

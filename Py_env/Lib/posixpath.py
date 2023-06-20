@@ -262,9 +262,6 @@ def expanduser(path):
             # password database, return the path unchanged
             return path
         userhome = pwent.pw_dir
-    # if no user home, return the path unchanged on VxWorks
-    if userhome is None and sys.platform == "vxworks":
-        return path
     if isinstance(path, bytes):
         userhome = os.fsencode(userhome)
         root = b'/'
@@ -388,16 +385,16 @@ def abspath(path):
 # Return a canonical path (i.e. the absolute location of a file on the
 # filesystem).
 
-def realpath(filename, *, strict=False):
+def realpath(filename):
     """Return the canonical path of the specified filename, eliminating any
 symbolic links encountered in the path."""
     filename = os.fspath(filename)
-    path, ok = _joinrealpath(filename[:0], filename, strict, {})
+    path, ok = _joinrealpath(filename[:0], filename, {})
     return abspath(path)
 
 # Join two paths, normalizing and eliminating any symbolic links
 # encountered in the second path.
-def _joinrealpath(path, rest, strict, seen):
+def _joinrealpath(path, rest, seen):
     if isinstance(path, bytes):
         sep = b'/'
         curdir = b'.'
@@ -426,15 +423,7 @@ def _joinrealpath(path, rest, strict, seen):
                 path = pardir
             continue
         newpath = join(path, name)
-        try:
-            st = os.lstat(newpath)
-        except OSError:
-            if strict:
-                raise
-            is_link = False
-        else:
-            is_link = stat.S_ISLNK(st.st_mode)
-        if not is_link:
+        if not islink(newpath):
             path = newpath
             continue
         # Resolve the symbolic link
@@ -445,14 +434,10 @@ def _joinrealpath(path, rest, strict, seen):
                 # use cached value
                 continue
             # The symlink is not resolved, so we must have a symlink loop.
-            if strict:
-                # Raise OSError(errno.ELOOP)
-                os.stat(newpath)
-            else:
-                # Return already resolved part + rest of the path unchanged.
-                return join(newpath, rest), False
+            # Return already resolved part + rest of the path unchanged.
+            return join(newpath, rest), False
         seen[newpath] = None # not resolved symlink
-        path, ok = _joinrealpath(path, os.readlink(newpath), strict, seen)
+        path, ok = _joinrealpath(path, os.readlink(newpath), seen)
         if not ok:
             return join(path, rest), False
         seen[newpath] = path # resolved symlink

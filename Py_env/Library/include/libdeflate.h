@@ -10,15 +10,15 @@ extern "C" {
 #endif
 
 #define LIBDEFLATE_VERSION_MAJOR	1
-#define LIBDEFLATE_VERSION_MINOR	13
-#define LIBDEFLATE_VERSION_STRING	"1.13"
+#define LIBDEFLATE_VERSION_MINOR	12
+#define LIBDEFLATE_VERSION_STRING	"1.12"
 
 #include <stddef.h>
 #include <stdint.h>
 
 /*
  * On Windows, if you want to link to the DLL version of libdeflate, then
- * #define LIBDEFLATE_DLL.  Note that the calling convention is "cdecl".
+ * #define LIBDEFLATE_DLL.  Note that the calling convention is "stdcall".
  */
 #ifdef LIBDEFLATE_DLL
 #  ifdef BUILDING_LIBDEFLATE
@@ -31,6 +31,12 @@ extern "C" {
 #  define LIBDEFLATEEXPORT
 #endif
 
+#if defined(_WIN32) && !defined(_WIN64) && defined(LIBDEFLATE_DLL)
+#  define LIBDEFLATEAPI_ABI	__stdcall
+#else
+#  define LIBDEFLATEAPI_ABI
+#endif
+
 #if defined(BUILDING_LIBDEFLATE) && defined(__GNUC__) && \
 	defined(_WIN32) && !defined(_WIN64)
     /*
@@ -38,10 +44,12 @@ extern "C" {
      * Realign the stack when entering libdeflate to avoid crashing in SSE/AVX
      * code when called from an MSVC-compiled application.
      */
-#  define LIBDEFLATEAPI	__attribute__((force_align_arg_pointer))
+#  define LIBDEFLATEAPI_STACKALIGN	__attribute__((force_align_arg_pointer))
 #else
-#  define LIBDEFLATEAPI
+#  define LIBDEFLATEAPI_STACKALIGN
 #endif
+
+#define LIBDEFLATEAPI	LIBDEFLATEAPI_ABI LIBDEFLATEAPI_STACKALIGN
 
 /* ========================================================================== */
 /*                             Compression                                    */

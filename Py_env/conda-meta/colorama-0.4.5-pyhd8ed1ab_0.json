@@ -24,12 +24,12 @@
     "Lib/site-packages/colorama/win32.py",
     "Lib/site-packages/colorama/winterm.py",
     ".nonadmin",
-    "Lib/site-packages/colorama/__pycache__/__init__.cpython-310.pyc",
-    "Lib/site-packages/colorama/__pycache__/ansi.cpython-310.pyc",
-    "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-310.pyc",
-    "Lib/site-packages/colorama/__pycache__/initialise.cpython-310.pyc",
-    "Lib/site-packages/colorama/__pycache__/win32.cpython-310.pyc",
-    "Lib/site-packages/colorama/__pycache__/winterm.cpython-310.pyc"
+    "Lib/site-packages/colorama/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansi.cpython-39.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-39.pyc",
+    "Lib/site-packages/colorama/__pycache__/initialise.cpython-39.pyc",
+    "Lib/site-packages/colorama/__pycache__/win32.cpython-39.pyc",
+    "Lib/site-packages/colorama/__pycache__/winterm.cpython-39.pyc"
   ],
   "fn": "colorama-0.4.5-pyhd8ed1ab_0.tar.bz2",
   "license": "BSD-3-Clause",
@@ -144,27 +144,27 @@
         "size_in_bytes": 6438
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/__init__.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/__init__.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/ansi.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/ansi.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/initialise.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/initialise.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/win32.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/win32.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/colorama/__pycache__/winterm.cpython-310.pyc",
+        "_path": "Lib/site-packages/colorama/__pycache__/winterm.cpython-39.pyc",
         "path_type": "pyc_file"
       }
     ],

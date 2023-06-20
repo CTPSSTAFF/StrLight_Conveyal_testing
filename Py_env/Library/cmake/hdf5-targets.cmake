@@ -53,7 +53,7 @@ add_library(hdf5-static STATIC IMPORTED)
 
 set_target_properties(hdf5-static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libcurl.lib;C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libssl.lib;C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libcrypto.lib;C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/z.lib;\$<LINK_ONLY:\$<\$<BOOL:OFF>:>>;\$<\$<NOT:\$<PLATFORM_ID:Windows>>:>"
+  INTERFACE_LINK_LIBRARIES "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcurl.lib;C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libssl.lib;C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcrypto.lib;C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/z.lib;\$<LINK_ONLY:\$<\$<BOOL:OFF>:>>;\$<\$<NOT:\$<PLATFORM_ID:Windows>>:>"
 )
 
 # Create imported target hdf5-shared

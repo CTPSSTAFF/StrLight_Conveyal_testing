@@ -32,12 +32,12 @@
     "Lib/site-packages/branca/templates/color_scale.js",
     "Lib/site-packages/branca/utilities.py",
     ".nonadmin",
-    "Lib/site-packages/branca/__pycache__/__init__.cpython-310.pyc",
-    "Lib/site-packages/branca/__pycache__/_version.cpython-310.pyc",
-    "Lib/site-packages/branca/__pycache__/colormap.cpython-310.pyc",
-    "Lib/site-packages/branca/__pycache__/element.cpython-310.pyc",
-    "Lib/site-packages/branca/plugins/__pycache__/__init__.cpython-310.pyc",
-    "Lib/site-packages/branca/__pycache__/utilities.cpython-310.pyc"
+    "Lib/site-packages/branca/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/branca/__pycache__/_version.cpython-39.pyc",
+    "Lib/site-packages/branca/__pycache__/colormap.cpython-39.pyc",
+    "Lib/site-packages/branca/__pycache__/element.cpython-39.pyc",
+    "Lib/site-packages/branca/plugins/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/branca/__pycache__/utilities.cpython-39.pyc"
   ],
   "fn": "branca-0.5.0-pyhd8ed1ab_0.tar.bz2",
   "license": "MIT",
@@ -187,27 +187,27 @@
         "size_in_bytes": 13435
       },
       {
-        "_path": "Lib/site-packages/branca/__pycache__/__init__.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/__pycache__/__init__.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/branca/__pycache__/_version.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/__pycache__/_version.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/branca/__pycache__/colormap.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/__pycache__/colormap.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/branca/__pycache__/element.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/__pycache__/element.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/branca/plugins/__pycache__/__init__.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/plugins/__pycache__/__init__.cpython-39.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "Lib/site-packages/branca/__pycache__/utilities.cpython-310.pyc",
+        "_path": "Lib/site-packages/branca/__pycache__/utilities.cpython-39.pyc",
         "path_type": "pyc_file"
       }
     ],

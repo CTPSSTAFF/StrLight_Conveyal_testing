@@ -12,8 +12,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "C:/Users/bbact/miniforge3/envs/Py_env\\Library";
-my $prefix = "C:/Users/bbact/miniforge3/envs/Py_env\\Library";
+my $dir = "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env\\Library";
+my $prefix = "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env\\Library";
 
 my $errorcount = 0;
 my $openssl = $ENV{OPENSSL} || "openssl";

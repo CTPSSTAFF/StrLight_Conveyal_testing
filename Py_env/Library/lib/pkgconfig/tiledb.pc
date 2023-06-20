@@ -1,4 +1,4 @@
-prefix="C:/Users/bbact/miniforge3/envs/Py_env/Library"
+prefix="C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library"
 exec_prefix="${prefix}"
 libdir="${prefix}/lib"
 includedir="${prefix}/include/tiledb"
@@ -6,9 +6,9 @@ includedir="${prefix}/include/tiledb"
 Name: TileDB
 Description: The Storage Engine for Data Science
 URL: https://github.com/TileDB-Inc/TileDB
-Version: 2.11.1
+Version: 2.9.5
 Requires: 
-Requires.private: libmagic pcre2-8 pcre2-posix webp imagedec imageenc imageioutil webpdecoder webpdmux webpmux
+Requires.private: libmagic pcre2-8 pcre2-posix
 Cflags: -I"${includedir}"
 Libs: -L"${libdir}" -ltiledb
 Libs.private: -L"${libdir}" -ltiledb 

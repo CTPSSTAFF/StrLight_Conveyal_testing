@@ -13,10 +13,10 @@ endif()
 get_filename_component(_BOOST_CMAKEDIR "${CMAKE_CURRENT_LIST_DIR}/../" REALPATH)
 
 # If the computed and the original directories are symlink-equivalent, use original
-if(EXISTS "C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/cmake")
-  get_filename_component(_BOOST_CMAKEDIR_ORIGINAL "C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/cmake" REALPATH)
+if(EXISTS "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/cmake")
+  get_filename_component(_BOOST_CMAKEDIR_ORIGINAL "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/cmake" REALPATH)
   if(_BOOST_CMAKEDIR STREQUAL _BOOST_CMAKEDIR_ORIGINAL)
-    set(_BOOST_CMAKEDIR "C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/cmake")
+    set(_BOOST_CMAKEDIR "C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/cmake")
   endif()
   unset(_BOOST_CMAKEDIR_ORIGINAL)
 endif()

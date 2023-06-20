@@ -731,7 +731,6 @@ class ElementTree:
         with _get_writer(file_or_filename, encoding) as (write, declared_encoding):
             if method == "xml" and (xml_declaration or
                     (xml_declaration is None and
-                     encoding.lower() != "unicode" and
                      declared_encoding.lower() not in ("utf-8", "us-ascii"))):
                 write("<?xml version='1.0' encoding='%s'?>\n" % (
                     declared_encoding,))
@@ -758,10 +757,13 @@ def _get_writer(file_or_filename, encoding):
     except AttributeError:
         # file_or_filename is a file name
         if encoding.lower() == "unicode":
-            encoding="utf-8"
-        with open(file_or_filename, "w", encoding=encoding,
-                  errors="xmlcharrefreplace") as file:
-            yield file.write, encoding
+            file = open(file_or_filename, "w",
+                        errors="xmlcharrefreplace")
+        else:
+            file = open(file_or_filename, "w", encoding=encoding,
+                        errors="xmlcharrefreplace")
+        with file:
+            yield file.write, file.encoding
     else:
         # file_or_filename is a file-like object
         # encoding determines if it is a text or binary writer
@@ -1555,6 +1557,7 @@ class XMLParser:
         # Configure pyexpat: buffering, new-style attribute handling.
         parser.buffer_text = 1
         parser.ordered_attributes = 1
+        parser.specified_attributes = 1
         self._doctype = None
         self.entity = {}
         try:
@@ -1574,6 +1577,7 @@ class XMLParser:
         for event_name in events_to_report:
             if event_name == "start":
                 parser.ordered_attributes = 1
+                parser.specified_attributes = 1
                 def handler(tag, attrib_in, event=event_name, append=append,
                             start=self._start):
                     append((event, start(tag, attrib_in)))

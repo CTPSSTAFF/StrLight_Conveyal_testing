@@ -1956,7 +1956,6 @@ typedef struct AlterTableCmd	/* one subcommand of an ALTER TABLE */
 								 * constraint, or parent table */
 	DropBehavior behavior;		/* RESTRICT or CASCADE for DROP cases */
 	bool		missing_ok;		/* skip error if missing? */
-	bool		recurse;		/* exec-time recursion */
 } AlterTableCmd;
 
 

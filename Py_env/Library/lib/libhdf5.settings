@@ -9,7 +9,7 @@ General Information:
                     Host system: Windows-10.0.17763
               Uname information: Windows
                        Byte sex: little-endian
-             Installation point: C:/Users/bbact/miniforge3/envs/Py_env/Library
+             Installation point: C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library
 
 Compiling Options:
 ------------------
@@ -26,7 +26,7 @@ Linking Options:
                         LDFLAGS: /machine:x64
                      H5_LDFLAGS: 
                      AM_LDFLAGS: 
-                Extra libraries: C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libcurl.lib;C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libssl.lib;C:/Users/bbact/miniforge3/envs/Py_env/Library/lib/libcrypto.lib
+                Extra libraries: C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcurl.lib;C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libssl.lib;C:/Users/bbact/Documents/GitHub/BNR_SEA/Py_env/Library/lib/libcrypto.lib
                        Archiver: C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/lib.exe
                          Ranlib: :
 

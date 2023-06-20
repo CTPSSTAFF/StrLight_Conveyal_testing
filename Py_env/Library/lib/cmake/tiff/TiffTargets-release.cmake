@@ -12,8 +12,8 @@ set_target_properties(TIFF::tiff PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/tiff.dll"
   )
 
-list(APPEND _cmake_import_check_targets TIFF::tiff )
-list(APPEND _cmake_import_check_files_for_TIFF::tiff "${_IMPORT_PREFIX}/lib/tiff.lib" "${_IMPORT_PREFIX}/bin/tiff.dll" )
+list(APPEND _IMPORT_CHECK_TARGETS TIFF::tiff )
+list(APPEND _IMPORT_CHECK_FILES_FOR_TIFF::tiff "${_IMPORT_PREFIX}/lib/tiff.lib" "${_IMPORT_PREFIX}/bin/tiff.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)
